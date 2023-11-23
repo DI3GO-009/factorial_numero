@@ -14,7 +14,7 @@ else
        $numero = $numero * $i; 
 
     }
-
+//Respuesta
 return $numero;
 
 
