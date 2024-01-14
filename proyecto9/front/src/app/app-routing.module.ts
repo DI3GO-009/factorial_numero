@@ -26,23 +26,27 @@ const routes: Routes = [
       {
         path: 'dashboard',
         loadChildren: () =>
-          import('./views/dashboard/dashboard.module').then((m) => m.DashboardModule),
+          import('./views/dashboard/dashboard.module').then(
+            (m) => m.DashboardModule),
       },
 
       {
         path: 'productos',
         loadChildren: () =>
-          import('./Components/datos.module').then((m) => m.DatosModule),
+          import('./Components/datos.module').then(
+            (m) => m.DatosModule),
       },
       {
         path: 'proveedores',
         loadChildren: () =>
-          import('./Components/datos.module').then((m) => m.DatosModule),
+          import('./Components/datos.module').then(
+            (m) => m.DatosModule),
       },
       {
         path: 'stocks',
         loadChildren: () =>
-          import('./Components/datos.module').then((m) => m.DatosModule),
+          import('./Components/datos.module').then(
+            (m) => m.DatosModule),
       },
 
 

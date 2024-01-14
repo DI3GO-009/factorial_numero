@@ -16,10 +16,20 @@ export const navItems: INavData[] = [
   },
 
   {
-    name: 'Pproductos',
-    url: './components/productos',
+    name: 'Productos',
+    url: '/productos',
     iconComponent: { name: 'cil-drop' }
 
+  },
+
+  {
+    name: 'Proveedores',
+    url: '/proveedores',
+  },
+
+  {
+    name: 'Stock',
+    url: '/stocks', //en base al   path del app-routing.module.ts
   },
 
 

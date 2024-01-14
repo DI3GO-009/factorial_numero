@@ -5,10 +5,10 @@ import { ProveedoresComponent } from './proveedores/proveedores.component';
 import { StocksComponent } from './stocks/stocks.component';
 import { TableModule } from '@coreui/angular';
 import { ReactiveFormsModule } from '@angular/forms';
-import { ThemeRoutingModule } from '../views/theme/theme-routing.module';
+
 
 @NgModule({
-  declarations: [ThemeRoutingModule],
+  declarations: [],
   imports: [
     CommonModule,
     ProductosComponent,
